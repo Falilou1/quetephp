@@ -1,12 +1,12 @@
 <?php
 $movies = [
-'Indiana Jones et le Royaume du crâne de cristal' => 2008
+'Indiana Jones et le Royaume du crâne de cristal' => 2008,
 
-'Indiana Jones et la Dernière Croisade' => 1989
+'Indiana Jones et la Dernière Croisade' => 1989,
 
 'Indiana Jones et le temple maudit' => 1984
 ];
   foreach($movies as $key  => $movie){
-    echo $key;
-  echo $movie;
+    echo $movie ."-";
+  echo $key;
   }
